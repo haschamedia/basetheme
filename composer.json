@@ -1,0 +1,23 @@
+{
+    "name": "haschamedia/basetheme",
+    "type": "library",
+    "description": "Tema Dasar Untuk Laravel Blade dan Komponen Menggunakan Tailwind CSS",
+    "keywords": ["haschamedia", "basetheme", "laravel"],
+    "license": "MIT",
+    "require": {
+        "php": "^8.2",
+        "laravel/framework": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "BaseTheme\\BaseThemeServiceProvider"
+            ]
+        }
+    }
+}
