@@ -165,3 +165,12 @@ Base Background
 .base-layer-thick-green {
     @apply bg-green-900/25 border border-green-900;
 }
+
+
+/*
+Form
+*/
+
+.label-text-minify {
+    @apply font-open-sans text-xs tracking-wide;
+}
