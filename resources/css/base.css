@@ -31,6 +31,10 @@ HaschaMedia/BaseTheme
 ====================================================
 */
 
+.higher-title {
+    @apply font-medium font-poppins tracking-wide text-[1.6em];
+}
+
 .title {
     @apply font-semibold font-poppins tracking-wide text-[1.2em];
 }
