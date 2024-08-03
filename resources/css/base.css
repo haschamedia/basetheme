@@ -31,8 +31,12 @@ HaschaMedia/BaseTheme
 ====================================================
 */
 
-.higher-title {
+.big-title {
     @apply font-medium font-poppins tracking-wide text-[1.6em];
+}
+
+.higher-title {
+    @apply font-medium font-poppins tracking-wide text-[1.4em];
 }
 
 .title {
