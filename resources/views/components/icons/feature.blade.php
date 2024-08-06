@@ -1,3 +1,3 @@
 <span {{
-    $attributes->merge(['class' => $attributes->prepends('hascha-shuffle_on')])
+    $attributes->merge(['class' => $attributes->prepends('hascha-eco')])
 }}></span>
