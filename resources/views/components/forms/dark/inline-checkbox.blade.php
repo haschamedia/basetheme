@@ -1,7 +1,8 @@
 @props([
     'labelText',
     'input' => '',
-    'isDisabled' => false
+    'isDisabled' => false,
+    'isChecked' => false
 ])
 <label {{
     $attributes->merge(['class' => $attributes->prepends('flex flex-2 gap-1 items-center cursor-pointer')])
@@ -14,7 +15,8 @@
         ->merge([
             'name' => '',
             'id' => '',
-            'disabled' => $isDisabled
+            'disabled' => $isDisabled,
+            'checked' => $isChecked
         ])
     }}>
     <span>{{ $labelText }}</span>
