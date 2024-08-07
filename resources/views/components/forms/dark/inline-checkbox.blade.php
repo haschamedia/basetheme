@@ -15,9 +15,8 @@
         ->merge([
             'name' => '',
             'id' => '',
-            'disabled' => $isDisabled,
-            'checked' => $isChecked
+            'disabled' => $isDisabled
         ])
-    }}>
+    }} @if($isChecked) checked @endif>
     <span>{{ $labelText }}</span>
 </label>
