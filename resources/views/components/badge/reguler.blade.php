@@ -5,7 +5,10 @@
 @php
 switch ($theme) {
     case 'primary':
-        $styles = " bg-primary text-secondary";
+        $styles = " bg-amber-800 text-slate-300";
+        break;
+    case 'light':
+        $styles = " bg-slate-400 text-slate-800";
         break;
     default:
         $styles = " bg-slate-700 text-slate-300";
