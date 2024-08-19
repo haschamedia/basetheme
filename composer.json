@@ -1,6 +1,6 @@
 {
     "name": "haschamedia/basetheme",
-    "version": "dev-main",
+    "version": "1.0.0",
     "type": "library",
     "description": "Tema Dasar Untuk Laravel Blade dan Komponen Menggunakan Tailwind CSS",
     "keywords": ["haschamedia", "basetheme", "laravel"],
@@ -28,12 +28,14 @@
     },
     "extra": {
         "branch-alias": {
-            "dev-main": "1.0-dev"
+            "1.0.0": "1.0-dev"
         },
         "laravel": {
             "providers": [
                 "BaseTheme\\BaseThemeServiceProvider"
             ]
         }
-    }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
 }
