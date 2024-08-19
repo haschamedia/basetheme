@@ -1,0 +1,39 @@
+{
+    "name": "haschamedia/basetheme",
+    "version": "dev-main",
+    "type": "library",
+    "description": "Tema Dasar Untuk Laravel Blade dan Komponen Menggunakan Tailwind CSS",
+    "keywords": ["haschamedia", "basetheme", "laravel"],
+    "license": "MIT",
+    "support": {
+        "issues": "https://github.com/haschamedia/basetheme/issues",
+        "source": "https://github.com/haschamedia/basetheme"
+    },
+    "authors": [
+        {
+            "name": "Fariz Huzairi",
+            "email": "farizhuzairi@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^8.2"
+    },
+    "require-dev": {
+        "illuminate/support": "^11.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "BaseTheme\\": "src/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-main": "1.0-dev"
+        },
+        "laravel": {
+            "providers": [
+                "BaseTheme\\BaseThemeServiceProvider"
+            ]
+        }
+    }
+}
